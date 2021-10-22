@@ -5,12 +5,12 @@ body {
 }
 
 #container {
-     width: 85%; /* 720px */
+    width: 85%; /* 720px */
     margin: 0 auto;
     background: #fff;
     min-width: 720px;
     /* max-width: 960px; */
-    
+
 }
 
 #marca {
