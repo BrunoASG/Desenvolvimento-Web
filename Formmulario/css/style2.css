@@ -49,6 +49,11 @@ input.logar {
     border: 2px solid #db7d00;
 }
 
+input:hover {
+    background-color: #d6a15b;
+
+}
+
 input.logar:hover {
     background-color: rgb(75, 68, 170);
     border: #643d87;
