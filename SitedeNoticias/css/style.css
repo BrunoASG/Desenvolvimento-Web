@@ -229,10 +229,41 @@ h3 {
     
 }
 
+/* Formata lista de noticias  */
 
 
 
+#lista-noticias li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc ;
+    height: 62px;
+}
 
+#lista-noticias li a img{
+    width: 80px;
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a {
+   text-decoration: none;
+   
+}
+
+#lista-noticias li a h3 {    
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+ }
+
+ #lista-noticias li a p {    
+    font-size: 0.7em;
+    color: #000;
+ }
+ #lista-noticias li:hover {
+   background: #eee;
+   cursor: pointer;
+}
 
 /* Rodape */
 #container-footer{

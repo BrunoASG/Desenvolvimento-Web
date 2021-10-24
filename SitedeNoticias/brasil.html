@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/SitedeNoticias/css/style.css">
     <title>Site de Noticias</title>
 </head>
+
 <body id="duas-colunas" class="brasil">
 
     <!-- Início container -->
@@ -14,7 +16,8 @@
             <h1 class="logo">Notícias Cidade</h1>
             <ul id="navegacao">
                 <li class="primeiro">
-                    <a id="home" href="index.html">Home</a></li>
+                    <a id="home" href="index.html">Home</a>
+                </li>
                 <li>
                     <a id="brasil" href="brasil.html">Brasil</a>
                 </li>
@@ -39,22 +42,130 @@
 
         <!-- Inincio conteudo -->
         <div id="conteudo">
-            <div id="primario">Primário</div>            
-            <div id="lateral">Lateral</div>
+            <!-- Inicio primario -->
+            <div id="primario">
+
+                <!-- Inicio Destaque -->
+
+                <div class="caixa destaque">
+                    
+
+                    <h2>Destaque</h2>
+
+                    <div class="caixa-conteudo">
+
+                        <h3>Nova Legislação</h3>
+                        <img class="imagem-principal" src="/SitedeNoticias/imagens/taxi.jpg" alt="taxi">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#">Leia mais...</a>
+
+                    </div>
+                </div>
+
+                <!-- Fim destaque -->
+
+                <!-- Inicio Mundo -->
+
+                <div class="caixa">
+
+                    <h2>Mundo</h2>
+
+                    <div class="caixa-conteudo">
+
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="#">
+                                    <img src="/SitedeNoticias/imagens/tecnologia.jpg">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur ...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/SitedeNoticias/imagens/tecnologia.jpg">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur ...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/SitedeNoticias/imagens/tecnologia.jpg">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur ...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/SitedeNoticias/imagens/tecnologia.jpg">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur ...</p>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Fim Mundo -->
+
+            </div>
+            <!-- Fim primario -->           
+
+            <!-- Inicio Lateral -->
+            <div id="lateral">
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="#">Bruna Amoretti</a></li>
+                            <li><a href="#">Michele Amoretti</a></li>
+                            <li><a href="#">Idalina Rodrigues</a></li>
+                            <li><a href="#">Albert Meza</a></li>
+                            <li><a href="#">Cassia Chirstina</a></li>
+                            <li><a href="#">Andressa Celeste</a></li>
+                            <li><a href="#">Alessandra Celeste</a></li>
+                            <li><a href="#">Bruno Amoretti</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+
+                        <form action="">
+                            <div>
+                                <label for="">E-mail:</label>
+                                <input type="text" name='email' id="email" placeholder="E-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- Fim Lateral -->
+
         </div>
         <!-- Fim conteudo -->
-        
+
     </div>
     <!-- Fim do container -->
 
     <!-- Inicio Rodapé -->
     <div id="container-footer">
-        
+
         <div id="footer">
             &copy; Copyright 2000-2021 Notícias Cidade
         </div>
     </div>
     <!-- Fim Rodapé -->
-    
+
 </body>
+
 </html>
