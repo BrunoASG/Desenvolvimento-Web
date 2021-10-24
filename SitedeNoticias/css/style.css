@@ -96,7 +96,7 @@ ul {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
+    
         
 }
 
@@ -112,7 +112,7 @@ ul {
     width: 555px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
+ 
         
 }
 
@@ -120,7 +120,7 @@ ul {
     width: 750px;
     float: left;
     margin: 0 0 20px 0;
-    background: blue;
+    
         
 } 
 
@@ -128,7 +128,7 @@ ul {
     width: 270px;
     float: left;
     margin: 0 0 20px 15px ;
-    background: green;
+ 
 }
 
 /* Caixa */
@@ -197,6 +197,40 @@ input:hover {
   cursor: pointer;
 
 }
+
+/* Formata imagens */
+
+img {
+    border: 2px solid #bfbfbf;
+    width: 100%;
+}
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/* Formata cabeçalho */
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333 ;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #de003e;
+    
+}
+
+
+
 
 
 
