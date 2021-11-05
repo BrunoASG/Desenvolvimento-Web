@@ -1,0 +1,49 @@
+
+#container{
+    width: 100%;
+    background: #ccc;
+    border: 1px solid red;
+}
+
+footer{
+    clear: both;
+}
+
+
+
+@keyframes animacao-selecao {
+    from {
+        padding: 8px;           
+        margin-top: 20px;
+    }
+    to {
+       
+        padding: 8px;
+        margin-top: 10px;        
+        box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.7);
+    }
+}
+
+#caixa {
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin-top: 20px;
+    background: #009670;
+    margin-left: 20px;
+    /* box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.7); */
+}
+
+#caixa:hover{
+    width: 300px;
+    height: 300px;  
+    padding: 8px;
+    margin-top: 10px;
+    background: #009670;           
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.7);
+    animation-name: animacao-selecao;
+    animation-duration: 0.5s;  
+}
+
+
