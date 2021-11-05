@@ -45,5 +45,11 @@ footer{
     animation-name: animacao-selecao;
     animation-duration: 0.5s;  
 }
+/* animation-delay:tempo; Detremina o tempo para iniciar a animação ao carregar a pagina
 
+animation-iteration-count: quantidade; Detremina a quantidade de vezes que a animação vai se repetir ao carregar a pagina
+
+animation-direction:(alternate,reserve); Determina o sentido que a animação será exibida 
+
+animation:(nome da keyframes)(duração)(delay)(vezs que se repete) (direção)*/
 
