@@ -8,7 +8,7 @@
 
      definir quebras de layouts
      nowrap | wrap | wrap-reverse 
-     flex-wrap: nowrap;
+     
 
      /* Alinnha itens na horizontal
       flex-start | flex-end | centre | space-between | space-around
@@ -17,8 +17,8 @@
      /* Alinha itens na vertical 
      stretch | center | flex-start | flex-end | baseline 
      align-items: center;*/
-
-
+     flex-direction: row;
+     flex-wrap: wrap;
 }
 
 
